@@ -3,7 +3,7 @@
 if [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
 	echo "SIFT_PostInstall is a shell script to install additional tools in SIFT Workstation 3.0."
 	echo "Please supply the virtualization engine to configure user access to Shared Folders in"
-	echo "VirtualBox or to mount SharedFolders in VMware."
+	echo "VirtualBox or to mount Shared Folders in VMware."
 	echo
 	echo "Usage: SIFT_PostInstall.sh [vbox|vmware]"
 else
